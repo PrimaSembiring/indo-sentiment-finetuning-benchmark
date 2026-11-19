@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Output uji lokal ---
+# Hasil MODE="uji" di laptop BUKAN hasil resmi. Hasil resmi dari Kaggle
+# nanti disalin manual ke results/.
+outputs/
+
+# --- Dataset ---
+# Tidak disimpan karena notebook mengunduhnya otomatis dari GitHub IndoNLU.
+data/
+*.tsv
+
+# --- Bobot model, checkpoint, dan cache HuggingFace ---
+# Satu model base bisa ratusan MB sampai 1 GB, terlalu besar untuk GitHub.
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+tmp_trainer/
+hf_cache/
+.cache/
+wandb/
+
+# --- Rahasia (repo ini PUBLIC, jadi wajib di-ignore) ---
+.env
+kaggle.json
+
+# --- Sistem operasi dan editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
