@@ -1,0 +1,13 @@
+hipotesis,A,B,f1_macro_A,f1_macro_B,selisih (A-B),std_maks,lebih_tinggi,kesimpulan
+H1,IndoBERT full,mBERT full,0.9163,0.8728,0.0435,0.0094,IndoBERT full,bermakna
+H1,IndoBERT full,DistilBERT full,0.9163,0.8612,0.0552,0.0126,IndoBERT full,bermakna
+H1,IndoBERT full,XLM-R full,0.9163,0.9211,-0.0048,0.004,XLM-R full,bermakna
+H1,IndoBERT partial,mBERT partial,0.9093,0.8282,0.0811,0.0065,IndoBERT partial,bermakna
+H1,IndoBERT partial,DistilBERT partial,0.9093,0.7927,0.1166,0.004,IndoBERT partial,bermakna
+H2,IndoBERT full,IndoBERT partial,0.9163,0.9093,0.007,0.0034,IndoBERT full,bermakna
+H2,IndoBERT partial,IndoBERT probing,0.9093,0.85,0.0594,0.0028,IndoBERT partial,bermakna
+H2,IndoBERT full,IndoBERT probing,0.9163,0.85,0.0664,0.0034,IndoBERT full,bermakna
+H2,mBERT full,mBERT partial,0.8728,0.8282,0.0446,0.0094,mBERT full,bermakna
+H2,DistilBERT full,DistilBERT partial,0.8612,0.7927,0.0685,0.0126,DistilBERT full,bermakna
+H3,mBERT full,DistilBERT full,0.8728,0.8612,0.0117,0.0126,mBERT full,belum meyakinkan
+H3,mBERT partial,DistilBERT partial,0.8282,0.7927,0.0355,0.0065,mBERT partial,bermakna
